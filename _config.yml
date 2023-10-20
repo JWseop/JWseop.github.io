@@ -103,33 +103,21 @@ content:
         quote: >
           Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
         description: | # this will include new lines to allow paragraphs
-          
-
+          TABA 팀 프로젝트에서 팀장으로 참여하여 프로젝트 수행했습니다. 단기간에 진행해야하는 프로젝트였기 때문에 빠르게 개발 프로세스를 밟는 경험을 할 수 있었습니다.
+          정말 힘들었던 점은 빠르게 개발을 수행해야하는데, 시간을 들이는데 디버깅이 안되어 업무가 진행되지 않을 때 였습니다.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2022년 스타트업 (하계)인턴십
+        title: 2022년 스타트업 
+          
+          하계 인턴십
         # link: boringcompany.com
         # link_text: boringcompany.com
         caption: 2022.06 - 2022.07
         sub_title: 단국대학교 창업지원단
         description: | 
-          스타트업 환경에서의 업무 경험을 얻고, 다양한 사업 아이디어와 실행 능력을 배웠습니다.
-
-      - layout: left
-        title: 다우기술 프로그래밍 경진대회
-        caption: 2022.11
-        sub_title: 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상
-        description: | 
-          프로그래밍 경진대회를 통해 팀원들과 협업하며 문제 해결 능력을 키웠습니다.
-
-      - layout: left
-        title: 용인시 캠퍼스데이
-        sub_title: 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 동상 수상
-        caption: 2022.12.16
-        description: | 
-          SW분야에서의 뛰어난 업무 능력을 인정받아 동상을 수상하였습니다.
+          스타트업 환경에서의 고객 데이터 분석 업무를 수행하였습니다. R을 사용한 데이터의 시각화 및 데이터 분석의 자동화를 수행하였습니다.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -161,10 +149,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
+      - [단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등)](https://github.com/Simple-MeetUp)
+      - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
+      - 성적장학금 6회
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
       ![Trees](images/landscape-trees.jpg "Trees")
