@@ -110,7 +110,7 @@ content:
     content:
       - layout: left
         title: 2022년 스타트업 
-          
+           | 
           하계 인턴십
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -138,7 +138,7 @@ content:
       
       - layout: left
         title: 고급SW코딩캠프
-          
+           | 
           딥러닝입문
         caption: 2021.08
         sub_title: 단국대학교SW중심대학사업단
