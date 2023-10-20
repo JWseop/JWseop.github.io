@@ -109,9 +109,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2022년 스타트업 
-           | 
-          하계 인턴십
+        title: 스타트업 하계인턴십
         # link: boringcompany.com
         # link_text: boringcompany.com
         caption: 2022.06 - 2022.07
@@ -137,9 +135,7 @@ content:
           TmaxTibero, 단국대학교, 한국클라우드컴퓨팅연구조합과 함께하는 프로젝트에서 우수한 성과를 거두었고, 뛰어난 성과로 IITP 원장상도 수상하였습니다.
       
       - layout: left
-        title: 고급SW코딩캠프
-           | 
-          딥러닝입문
+        title: 고급SW코딩캠프     딥러닝입문
         caption: 2021.08
         sub_title: 단국대학교SW중심대학사업단
         description: | 
