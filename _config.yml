@@ -58,7 +58,7 @@ content:
     content:
     ### 프로젝트 1
       - layout: top-middle
-        title: 캡스톤 프로젝트:졸업작품
+        title: 캡스톤 프로젝트
         link: github.com/Manner-Maketh-Man/Presentation
         link_text: Git Repository Link
         additional_links:
@@ -88,10 +88,61 @@ content:
           OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
         description: | # this will include new lines to allow paragraphs
           3달 간 진행한 해당 프로젝트에서 마지막 2주 전, 한 팀원이 갑자기 탈퇴하였습니다. 긴급 회의를 통해 업무를 재분배하고 소통을 강화하여 프로젝트를 성공적으로 마무리하였습니다. 이를 통해 예기치 못한 상황에서도 팀원들과 함께 유연한 대처를 해보는 경험을 얻고, 팀원 간의 업무진척도를 공유하는 것의 중요성을 배웠습니다.
+      ### 프로젝트 2
+      - layout: top-middle
+        title: TABA 팀 프로젝트:약사전
+        # link: https://github.com/Receipt-Information-Parser/Service
+        # link_text: Git Repository Link
+        # additional_links:
+        #   - title:  Receipt Information Parser
+        #     icon: fab fa-github
+        #     url: https://github.com/Receipt-Information-Parser/Service
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
+        description: | # this will include new lines to allow paragraphs
+          
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 군복무 (공군)
+        caption: 2019.06.10 - 2021.03.08
+        description: 국가의 의무를 충실히 수행하며 다양한 경험과 협업 능력을 기르게 되었습니다.
+
+      - layout: left
+        title: 고급SW코딩캠프(청년):딥러닝입문
+        caption: 2021.08.02 - 2021.08.13
+        sub_title: 단국대학교SW중심대학사업단
+        description: 딥러닝에 대한 기본 지식과 활용 능력을 키우게 되었습니다.
+
+      - layout: left
+        title: 2022년 스타트업 (하계)인턴십
+        caption: 2022.06.20 - 2022.07.29
+        sub_title: 단국대학교 창업지원단
+        description: 스타트업 환경에서의 업무 경험을 얻고, 다양한 사업 아이디어와 실행 능력을 배웠습니다.
+
+      - layout: left
+        title: 단국대-다우기술 대학생 프로그래밍 경진대회 2022
+        caption: 2022.11.14 - 2022.11.21
+        sub_title: 은상
+        description: 프로그래밍 경진대회를 통해 팀원들과 협업하며 문제 해결 능력을 키웠습니다.
+
+      - layout: left
+        title: “2022 용인시-단국대 SW상생혁샌캠퍼스데이” 동상
+        caption: 2022.12.16
+        description: SW분야에서의 뛰어난 업무 능력을 인정받아 동상을 수상하였습니다.
+
+      - layout: left
+        title: 캠퍼스SW아카데미 TABA 3기 수료
+        caption: 2023.06.29 - 2023.08.31
+        sub_title: 프로젝트 우수상 & 우수학생상(IITP 원장상)
+        description: | 
+          TmaxTibero, 단국대학교, 한국클라우드컴퓨팅연구조합과 함께하는 프로젝트에서 우수한 성과를 거두었고, 뛰어난 성과로 IITP 원장상도 수상하였습니다.
+
       - layout: left
         title: The Boring Company
         link: boringcompany.com
@@ -106,6 +157,11 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 단국대학교 모바일시스템공학과 및 경영학과
+        caption: 2018.03 - 2024.03 (예정)
+        description: | 
+          모바일 시스템 공학과와 경영학과의 복수 전공을 통해 다양한 학문의 지식을 습득하며, 현대 사회에서 요구되는 융합적인 역량을 기르게 되었습니다.
       - layout: left
         title: Harvard University
         caption: 2010 - 2013
