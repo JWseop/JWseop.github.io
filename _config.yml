@@ -145,7 +145,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - [단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등)](https://github.com/Simple-MeetUp)
+      - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등)[git link](https://github.com/Simple-MeetUp)
       - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
       - 성적장학금 6회
       - Knitting
