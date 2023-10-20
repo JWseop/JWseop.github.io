@@ -109,6 +109,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Deep Learning Study Group
+        link: https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap
+        link_text: Roadmap
+        caption: 2023.01 - 2023.03
+        sub_title: DKUCILAB - 2022 Winter Deep Learning Study Group
+        description: | 
+          단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
+      - layout: left
         title: 스타트업 하계인턴십
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -135,20 +143,19 @@ content:
           TmaxTibero, 단국대학교, 한국클라우드컴퓨팅연구조합과 함께하는 프로젝트에서 우수한 성과를 거두었고, 뛰어난 성과로 IITP 원장상도 수상하였습니다.
       
       - layout: left
-        title: 고급SW코딩캠프     딥러닝입문
+        title: 고급SW코딩캠프
         caption: 2021.08
-        sub_title: 단국대학교SW중심대학사업단
+        sub_title: 딥러닝입문
         description: | 
-          딥러닝에 대한 기본 지식과 활용 능력을 키우게 되었습니다.
+          단국대학교SW중심대학사업단에서 주관한 교육 프로그램 입니다. 해당 교육을 통해 딥러닝을 처음 배우고 관심을 갖게 되었습니다. 현재 전공 강의를 인공지능 커리큘럼으로 수강하게된 계기가 되었습니다.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등)[git link](https://github.com/Simple-MeetUp)
+      - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등) [[git link]](https://github.com/Simple-MeetUp)
       - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
       - 성적장학금 6회
-      - Knitting
 
       Look at this cool image  
       ![Trees](images/landscape-trees.jpg "Trees")
