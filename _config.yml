@@ -7,16 +7,17 @@ version: 2
 
 # Personal info
 name: 정우섭
-title: Senior Network System Administrator
+title: Junior Machine Learning Engineer
 email: wjddntjq15@naver.com
-website: https://github.com/JWseop
+website: https://tjqdnwj.tistory.com/
+projects: https://github.com/settings/organizations
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  sproogen
+github_username:  JWseop
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -31,9 +32,9 @@ github_username:  sproogen
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: J's Study Log
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://tjqdnwj.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +49,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -57,20 +58,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: 캡스톤 프로젝트::졸업작품
+        # link: github.com/JWseop
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  github.com/Manner-Maketh-Man/Presentation
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Manner-Maketh-Man/Presentation
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 감정을 이모티콘으로 출력하는 프로그램
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          제가 처음으로 팀장의 역할을 맡아 참여하게된 프로젝트 입니다. 해당 프로젝트를 진행하면서 제일 처음 프로젝트 진행 일정 방식을 공유하여, 업무 순서에 맞춰 수월히 팀원들과 협력 할 수 있었습니다. 협업을 하며 가장 중요한 소통과 계획에 대한 중요성을 가장 많이 느낀 프로젝트 입니다. 
+        - layout: top-middle
+        title: 캡스톤 프로젝트::졸업작품
+        # link: github.com/JWseop
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/Manner-Maketh-Man/Presentation
+            icon: fab fa-github
+            url: github.com/Manner-Maketh-Man/Presentation
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 감정을 이모티콘으로 출력하는 프로그램
+        description: | # this will include new lines to allow paragraphs
+          제가 처음으로 팀장의 역할을 맡아 참여하게된 프로젝트 입니다. 해당 프로젝트를 진행하면서 제일 처음 프로젝트 진행 일정 방식을 공유하여, 업무 순서에 맞춰 수월히 팀원들과 협력 할 수 있었습니다. 협업을 하며 가장 중요한 소통과 계획에 대한 중요성을 가장 많이 느낀 프로젝트 입니다. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -110,7 +126,7 @@ content:
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
