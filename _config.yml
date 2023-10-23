@@ -47,7 +47,7 @@ darkmode: false
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: | # this will include new lines to allow paragraphs  # <mark>강조단어</mark>
   생년월일: 1999.01.26
 
 
