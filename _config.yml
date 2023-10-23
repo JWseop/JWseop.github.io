@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  
+  Junior Machine Learning Engineer 정우섭 입니다. 그 중에서 특히 NLP에 관심을 갖고있습니다.
 
 content:
   - title: Projects # Title for the section
