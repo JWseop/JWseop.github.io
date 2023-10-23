@@ -48,6 +48,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  생년월일: 1999.01.26
+
+
+  전화번호: 010-9434-1499
+
+
+
+
   Junior Machine Learning Engineer 정우섭 입니다. 인공지능 트랙을 통해 대학교를 졸업했으며, 특히 머신러닝의 지도학습 및 강화학습 역량을 강화했습니다.
   여러 공모전 및 프로젝트를 통해, 프로젝트 수행 능력을 길렀습니다.
 
