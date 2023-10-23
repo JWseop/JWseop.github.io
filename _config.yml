@@ -74,30 +74,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 전체 아키텍쳐 디자인
 
-          - 
+          - fine-tuning 모델 앙상블 구현 (KoGPT, KoBERT, KoELECTRA)
 
-          - PyQt를 통해 Frontend 구현
-          
+          - 클로바 OCR API 연동
+
+          - PyQt5를 활용한 GUI 구현
+
           - Presentation
 
       ### 프로젝트 2
-      - layout: left
-        title: 클라우드 컴퓨팅 프로젝트
-        # link: https://github.com/Receipt-Information-Parser/Service
-        # link_text: Git Repository Link
-        additional_links:
-          - title:  Receipt Information Parser
-            icon: fab fa-github
-            url: https://github.com/Receipt-Information-Parser/Service
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        sub_title: Inference Server Engineer & Frontend Engineer
-        quote: >
-          OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
-        description: | # this will include new lines to allow paragraphs
-          3달 간 진행한 해당 프로젝트에서 마지막 2주 전, 한 팀원이 갑자기 탈퇴하였습니다. 긴급 회의를 통해 업무를 재분배하고 소통을 강화하여 프로젝트를 성공적으로 마무리하였습니다. 이를 통해 예기치 못한 상황에서도 팀원들과 함께 유연한 대처를 해보는 경험을 얻고, 팀원 간의 업무진척도를 공유하는 것의 중요성을 배웠습니다.
-      ### 프로젝트 3
       - layout: left
         title: TABA 팀 프로젝트:약사전
         # link: https://github.com/Receipt-Information-Parser/Service
@@ -113,8 +98,34 @@ content:
         quote: >
           Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
         description: | # this will include new lines to allow paragraphs
-          TABA 팀 프로젝트에서 팀장으로 참여하여 프로젝트 수행했습니다. 단기간에 진행해야하는 프로젝트였기 때문에 빠르게 개발 프로세스를 밟는 경험을 할 수 있었습니다.
-          정말 힘들었던 점은 빠르게 개발을 수행해야하는데, 시간을 들이는데 디버깅이 안되어 업무가 진행되지 않을 때 였습니다.
+          - Triton Inference Server 구현
+
+          - ResNet152 모델 학습
+
+          - 데이터 전처리
+
+          - Flutter를 활용한 앱 UI/UX 구현
+
+      ### 프로젝트 3
+      - layout: left
+        title: 클라우드 컴퓨팅 프로젝트
+        # link: https://github.com/Receipt-Information-Parser/Service
+        # link_text: Git Repository Link
+        additional_links:
+          - title:  Receipt Information Parser
+            icon: fab fa-github
+            url: https://github.com/Receipt-Information-Parser/Service
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        sub_title: Inference Server Engineer & Frontend Engineer
+        quote: >
+          OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
+        description: | # this will include new lines to allow paragraphs
+          - 영수증 OCR 결과에 대한 NER 구현
+
+          - Flutter를 활용한 앱 UI/UX 구현
+      
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -124,10 +135,9 @@ content:
         link_text: Roadmap link
         caption: 2023.01 - 2023.03
         sub_title: DKUCILAB - 2022 Winter Deep Learning Study Group
-        quote: >
-          단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
         description: | 
           단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
+
       - layout: left
         title: 스타트업 하계인턴십
         # link: boringcompany.com
@@ -135,7 +145,9 @@ content:
         caption: 2022.06 - 2022.07
         sub_title: 단국대학교 창업지원단
         description: | 
-          스타트업 환경에서의 고객 데이터 분석 업무를 수행하였습니다. R을 사용한 데이터의 시각화 및 데이터 분석의 자동화를 수행하였습니다.
+          - 고객 데이터 분석
+          
+          - R을 사용한 데이터의 시각화 및 데이터 분석의 자동화
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -145,27 +157,26 @@ content:
         caption: 2018.03 - 2024.03
         sub_title: 모바일시스템공학과 & 경영학과
         description: | 
-          모바일 시스템 공학과와 경영학과의 복수 전공을 통해 다양한 학문의 지식을 습득하며, 현대 사회에서 요구되는 융합적인 역량을 기르게 되었습니다.
+          경제에 흥미를 갖고 시작한 복수 전공을 통해 비즈니스적 시각까지 갖춘 개발자가 될 수 있었습니다. 현재도 꾸준히 개발자 역량을 키우면서도 경제 이슈에 관심을 갖고 뉴스를 보는 습관을 갖고있습니다.
       
       - layout: left
         title: 캠퍼스SW아카데미 TABA 3기 수료
         caption: 2023.06 - 2023.08
         sub_title: 프로젝트 우수상 & 우수학생상
         description: | 
-          TmaxTibero, 단국대학교, 한국클라우드컴퓨팅연구조합과 함께하는 프로젝트에서 우수한 성과를 거두었고, 뛰어난 성과로 IITP 원장상도 수상하였습니다.
+          TmaxTibero, 단국대학교, 한국클라우드컴퓨팅연구조합과 함께하는 프로젝트에서 우수한 성과를 거두었고, 이론적 역량을 증명받아 IITP 원장상도 수상하였습니다.
       
       - layout: left
         title: 고급SW코딩캠프
         caption: 2021.08
         sub_title: 딥러닝입문
         description: | 
-          단국대학교SW중심대학사업단에서 주관한 교육 프로그램 입니다. 해당 교육을 통해 딥러닝을 처음 배우고 관심을 갖게 되었습니다. 현재 전공 강의를 인공지능 커리큘럼으로 수강하게된 계기가 되었습니다.
+          단국대학교SW중심대학사업단에서 주관한 교육 프로그램 입니다. 해당 교육을 통해 2학년부터 딥러닝을 배우고 관심을 갖게 되었습니다. 이는 제가 인공지능 커리큘럼을 교육받고 졸업하게된 계기가 되었습니다.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등) [[Git Link]](https://github.com/Simple-MeetUp)
+      - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등)
       - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
       - 성적장학금 6회
 
