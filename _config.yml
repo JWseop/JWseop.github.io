@@ -59,8 +59,8 @@ content:
     ### 프로젝트 1
       - layout: left
         title: 캡스톤 프로젝트
-        link: github.com/Manner-Maketh-Man/Presentation
-        link_text: Git Repository Link
+        # link: github.com/Manner-Maketh-Man/Presentation
+        # link_text: Git Repository Link
         additional_links:
           - title:  github.com/Manner-Maketh-Man/Presentation
             icon: fab fa-github
@@ -68,15 +68,19 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        sub_title: Project Manager
         quote: >
           실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 감정을 이모티콘으로 출력하는 프로그램
-        description: | # this will include new lines to allow paragraphs
-          제가 처음으로 팀장의 역할을 맡아 참여하게된 프로젝트 입니다. 프로젝트를 시작할 때 진행 일정 및 방식을 공유하여, 업무 순서에 맞춰 수월히 팀원들과 협력 할 수 있었습니다. <mark>협업</mark>을 하며 가장 중요한 <mark>소통</mark>과 <mark>계획</mark>에 대한 중요성을 가장 많이 느낀 프로젝트 입니다. 
+        content: | # this will include new lines to allow paragraphs
+          Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+          - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등) [[Git Link]](https://github.com/Simple-MeetUp)
+          - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
+          - 성적장학금 6회 
       ### 프로젝트 2
-      - layout: top-middle
+      - layout: left
         title: 클라우드 컴퓨팅 프로젝트
-        link: https://github.com/Receipt-Information-Parser/Service
-        link_text: Git Repository Link
+        # link: https://github.com/Receipt-Information-Parser/Service
+        # link_text: Git Repository Link
         additional_links:
           - title:  Receipt Information Parser
             icon: fab fa-github
@@ -84,12 +88,13 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        sub_title: Inference Server Engineer & Front-end Engineer
         quote: >
           OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
         description: | # this will include new lines to allow paragraphs
           3달 간 진행한 해당 프로젝트에서 마지막 2주 전, 한 팀원이 갑자기 탈퇴하였습니다. 긴급 회의를 통해 업무를 재분배하고 소통을 강화하여 프로젝트를 성공적으로 마무리하였습니다. 이를 통해 예기치 못한 상황에서도 팀원들과 함께 유연한 대처를 해보는 경험을 얻고, 팀원 간의 업무진척도를 공유하는 것의 중요성을 배웠습니다.
       ### 프로젝트 3
-      - layout: top-middle
+      - layout: left
         title: TABA 팀 프로젝트:약사전
         # link: https://github.com/Receipt-Information-Parser/Service
         # link_text: Git Repository Link
@@ -100,6 +105,7 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        sub_title: Project Manager
         quote: >
           Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
         description: | # this will include new lines to allow paragraphs
@@ -114,6 +120,8 @@ content:
         link_text: Roadmap link
         caption: 2023.01 - 2023.03
         sub_title: DKUCILAB - 2022 Winter Deep Learning Study Group
+        quote: >
+          단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
         description: | 
           단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
       - layout: left
