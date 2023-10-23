@@ -106,7 +106,7 @@ content:
           - Presentation
 
       ### 프로젝트 2
-      - layout: left
+      - layout: top-left
         title: TABA 팀 프로젝트:약사전
         # link: https://github.com/Receipt-Information-Parser/Service
         # link_text: Git Repository Link
@@ -129,7 +129,7 @@ content:
           - Flutter를 활용한 앱 UI/UX 구현
 
       ### 프로젝트 3
-      - layout: left
+      - layout: top-left
         title: 클라우드 컴퓨팅 프로젝트
         # link: https://github.com/Receipt-Information-Parser/Service
         # link_text: Git Repository Link
