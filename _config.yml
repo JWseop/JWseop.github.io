@@ -72,10 +72,9 @@ content:
         quote: >
           실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 감정을 이모티콘으로 출력하는 프로그램
         content: | # this will include new lines to allow paragraphs
-          Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-          - 단국대-다우기술 대학생 프로그래밍 경진대회 2022, 은상(2등) [[Git Link]](https://github.com/Simple-MeetUp)
-          - 2022 용인시-단국대 SW상생혁샌캠퍼스데이, 우수상
-          - 성적장학금 6회 
+          - 아키텍쳐 디자인 수행
+          - PyQt를 통해 Frontend 구현
+
       ### 프로젝트 2
       - layout: left
         title: 클라우드 컴퓨팅 프로젝트
@@ -88,7 +87,7 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        sub_title: Inference Server Engineer & Front-end Engineer
+        sub_title: Inference Server Engineer & Frontend Engineer
         quote: >
           OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
         description: | # this will include new lines to allow paragraphs
