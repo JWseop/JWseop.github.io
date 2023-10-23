@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
     ### 프로젝트 1
-      - layout: top-middle
+      - layout: left
         title: 캡스톤 프로젝트
         link: github.com/Manner-Maketh-Man/Presentation
         link_text: Git Repository Link
