@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 정우섭
+name: *목표지향적인 *개발자 *정우섭
 title: Junior Machine Learning Engineer
 email: wjddntjq15@naver.com
 website: https://tjqdnwj.tistory.com/
@@ -50,8 +50,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   
 
-  I am most skilled in: <mark>AWS</mark> <mark>Eating Pizza</mark>
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -69,9 +67,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         sub_title: Project Manager
-        quote: >
-          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 현재 감정을 이모티콘으로 보여주는 프로그램
         description: | # this will include new lines to allow paragraphs
+          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 현재 감정을 이모티콘으로 보여주는 프로그램
           - 전체 아키텍쳐 디자인
 
           - fine-tuning 모델 앙상블 구현 (KoGPT, KoBERT, KoELECTRA)
@@ -94,10 +91,9 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        sub_title: Project Manager
-        quote: >
-          Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
+        sub_title: Project Manager 
         description: | # this will include new lines to allow paragraphs
+          Computer Vision 기술을 알약사진에 사용한 알약 검색 앱 
           - Triton Inference Server 구현
 
           - ResNet152 모델 학습
@@ -119,9 +115,8 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         sub_title: Inference Server Engineer & Frontend Engineer
-        quote: >
-          OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
         description: | # this will include new lines to allow paragraphs
+          OCR 기술을 활용한 영수증 촬영을 통한 자동 가계부 작성 앱
           - 영수증 OCR 결과에 대한 NER 구현
 
           - Flutter를 활용한 앱 UI/UX 구현
@@ -136,7 +131,7 @@ content:
         caption: 2023.01 - 2023.03
         sub_title: DKUCILAB - 2022 Winter Deep Learning Study Group
         description: | 
-          단국대학교 모바일시스템공학과 이규행 교수님과 겨울 방학동안 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 논문리뷰 세미나를 진행하였습니다.
+          단국대학교 모바일시스템공학과 이규행 교수님과 주 1회 진행한 논문리뷰 세미나 입니다. 세계적 석학인 floodsung의 Deep Learning Papers Reading Roadmap을 따라 진행하였습니다.
 
       - layout: left
         title: 스타트업 하계인턴십
