@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>AWS</mark> <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
@@ -70,10 +70,12 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         sub_title: Project Manager
         quote: >
-          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 감정을 이모티콘으로 출력하는 프로그램
+          실시간으로 채팅에 대한 감정분석을 진행해, 상대방의 현재 감정을 이모티콘으로 보여주는 프로그램
         content: | # this will include new lines to allow paragraphs
-          - 아키텍쳐 디자인 수행
+          - 전체 아키텍쳐 디자인
+          - 
           - PyQt를 통해 Frontend 구현
+          - Presentation
 
       ### 프로젝트 2
       - layout: left
